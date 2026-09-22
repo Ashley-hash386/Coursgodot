@@ -10,7 +10,11 @@ config_version=5
 
 [application]
 
+<<<<<<< Updated upstream
 config/name="godotnew"
+=======
+config/name="cours godot"
+>>>>>>> Stashed changes
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
 
