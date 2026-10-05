@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://df52i304skyve"]
+
+[ext_resource type="PackedScene" uid="uid://d0jy5itrhop0y" path="res://character_2d.tscn" id="1_katkl"]
+
+[node name="Node2D" type="Node2D" unique_id=1230636285]
+
+[node name="character2D2" parent="." unique_id=264670436 instance=ExtResource("1_katkl")]
+position = Vector2(468, 206)
+progress = null
