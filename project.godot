@@ -51,6 +51,12 @@ move_right_action={
 ]
 }
 
+[layer_names]
+
+2d_render/layer_1="player"
+2d_render/layer_2="obstacle"
+2d_render/layer_3="projectille"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"

@@ -3,10 +3,21 @@
 [ext_resource type="Script" uid="uid://bqjeqev2vbgt2" path="res://scipt/character2D.gd" id="1_y2pml"]
 [ext_resource type="Texture2D" uid="uid://bda2gkis7f3jn" path="res://icon.svg" id="2_k8one"]
 
-[node name="character2D" type="Node2D" unique_id=264670436]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kvad8"]
+size = Vector2(131.16006, 137.61021)
+
+[node name="character2D" type="CharacterBody2D" unique_id=1077266361]
 rotation = -0.06806784
 script = ExtResource("1_y2pml")
 metadata/_custom_type_script = "uid://bqjeqev2vbgt2"
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=926552268]
+position = Vector2(581.38086, 355.67792)
+rotation = 0.06632251
+scale = Vector2(1.031289, 1.0650095)
 texture = ExtResource("2_k8one")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1561604787]
+position = Vector2(581.15466, 355.7095)
+rotation = 0.055850536
+shape = SubResource("RectangleShape2D_kvad8")

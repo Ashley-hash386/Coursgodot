@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://b3spll5w4dr3m"]
+
+[ext_resource type="Script" uid="uid://bak786ax08vjl" path="res://script.projectille.gd" id="1_r7dse"]
+[ext_resource type="Texture2D" uid="uid://bda2gkis7f3jn" path="res://icon.svg" id="2_7yk7r"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_n8koi"]
+size = Vector2(0.17998533, 3.1035967)
+
+[node name="Projectille2D" type="CharacterBody2D" unique_id=794378675]
+position = Vector2(64, 236)
+scale = Vector2(166.34459, 38.24556)
+script = ExtResource("1_r7dse")
+metadata/_custom_type_script = "uid://bak786ax08vjl"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2066599645]
+scale = Vector2(-0.0033311755, 0.01518929)
+texture = ExtResource("2_7yk7r")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1509286211]
+position = Vector2(0, -0.026146889)
+scale = Vector2(2.4716442, -0.6318515)
+shape = SubResource("RectangleShape2D_n8koi")
+debug_color = Color(0.93710715, 1.6942024e-05, 0.6314924, 0.41960785)
